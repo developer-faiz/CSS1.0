@@ -1,0 +1,14 @@
+.block{
+    background: yellow;
+    display: inline;
+}
+span{
+    background-color:red;
+    width: 300px;
+    height: 100px;
+    display: block;
+}
+h1{
+    background-color: violet;
+    display: inline-block;
+}

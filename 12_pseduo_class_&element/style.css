@@ -1,0 +1,27 @@
+.test:nth-child(odd){
+    background-color: yellow;
+    border: 1px solid;
+    padding: 6px;
+    text-align: center;
+    font-size: 20px;
+}
+.test:nth-child(even){
+    background-color: red;
+    border: 1px solid;
+    padding: 6px;
+    text-align: center;
+    font-size: 20px;
+}
+.test{
+    margin: 10px 0;
+}
+.test:hover{
+    background-color: violet;
+    cursor: pointer;
+}
+.test-1::after{
+    content: ' New content';
+}
+.test-1::before{
+    content: 'This is new content ';
+}

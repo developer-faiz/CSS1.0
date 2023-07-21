@@ -1,0 +1,27 @@
+.test-border{
+    border: 1px solid red;
+    width: 50%;
+    margin: 300px auto;
+    /* outline-width: medium;
+    outline-color: green;
+    outline-style: double; */
+    outline: 5px solid black;
+    outline-offset: 50px;
+}
+
+/* 
+        Border type
+        -----------
+    dotted
+    dashed
+    double
+    solid
+    inset
+    outset
+    grovee
+    none
+    hidden
+
+       Outline : to create space around between border & outline
+
+*/
