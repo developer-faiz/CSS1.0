@@ -1,0 +1,39 @@
+.test{
+    background-color: red;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    margin: 50px auto;
+    text-align: center;
+    transition: all 1s ease-in 2s;
+}
+.test:hover{
+    transform: translate(50px,50px); 
+    transform: rotate(-120deg);
+    transform: scale(1.5,1.2);
+     transform: skewX(20deg); 
+     transform: rotateX(360deg);
+     background-color: yellow;
+}
+
+@keyframes changecolor{
+    0%{background-color: red;}
+    25%{background-color: violet;}
+    50%{background-color: aqua;}
+    75%{background-color: coral;}
+    100%{background-color: green;}
+}
+
+#test{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+#test:hover{
+    animation-name: changecolor;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
